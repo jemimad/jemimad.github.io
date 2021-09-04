@@ -1,0 +1,74 @@
+[
+	{
+		"active": true,
+		"name": "Pouca Tripa",
+		"birth_date": "1976-09-22T00:00:00",
+		"phone": "84998523610",
+		"cpf":"32132132188",
+		"cnh":
+			{
+				"number": "700441702",
+				"category": "AB"
+			}
+	},
+	{
+		"active": true,
+		"name": "Quase nada",
+		"birth_date": "1986-09-22T00:00:00",
+		"phone": "84915142010",
+		"cpf": "78945612320",
+		"cnh":
+			{
+				"number": "7511549",
+				"category": "B"
+			}
+	},
+	{
+		"active": true,
+		"name": "Quase nada",
+		"birth_date": "1986-09-22T00:00:00",
+		"phone": "84915142010",
+		"cpf": "78945612310",
+		"cnh": 
+			{
+				"number": "7511549",
+				"category": "B"
+			}
+	},
+	{
+		"active": true,
+		"name": "Quase nada",
+		"birth_date": "1986-09-22T00:00:00",
+		"phone": "84915142010",
+		"cpf": "78945612600",
+		"cnh": 
+			{
+				"number": "7511549",
+				"category": "B"
+			}
+	},
+	{
+		"active": true,
+		"name": "Quase nada",
+		"birth_date": "1986-09-22T00:00:00",
+		"phone": "84915142010",
+		"cpf": "78445612300",
+		"cnh": 
+			{
+				"number": "7511549",
+				"category": "B"
+			}
+	},
+	{
+		"active": true,
+		"name": "Quase nada",
+		"birth_date": "1986-09-22T00:00:00",
+		"phone": "84915142010",
+		"cpf": "78945614300",
+		"cnh": 
+			{
+				"number": "7511549",
+				"category": "B"
+			}
+	}
+]
