@@ -11,7 +11,7 @@ export default function Routers() {
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/create" exact component={CreateAndEdit} />
-      <Route path="/edit" exact component={CreateAndEdit} />
+      <Route path="/edit/:id" exact component={CreateAndEdit} />
       <Route>
         <NotFound/>
       </Route>

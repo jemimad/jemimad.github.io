@@ -44,19 +44,14 @@ function reducer(state = INITIAL_STATE, action){
       return stateTemp;
 
     }else if(action.type === 'EDIT_TRUCKER'){
-
-      stateTemp = {...state, truckers: state.truckers.map(trucker => {
-        if (trucker.cpf !== action.cpf) {
-          return trucker
-        }
-
-        return {
-          ...trucker,
-          truckers: action.trucker,
-        }
-      })
-    }
-
+      stateTemp = {
+        ...state,
+        truckers: state.truckers.map(
+            trucker => trucker.id === action.trucker.id ? 
+            { ...trucker, ...action.trucker } :
+            trucker
+        )
+    };
     localStorage.setItem('state', JSON.stringify(stateTemp));
     return stateTemp;
     }

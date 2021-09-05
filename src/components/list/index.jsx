@@ -11,9 +11,11 @@ import { ReactComponent as Profile } from '../../assets/avatar.svg';
 import { ReactComponent as AddTrucker } from '../../assets/add.svg';
 import styled from 'styled-components';
 import { activeTrucker, removeTrucker } from '../../store/actions';
+import { useHistory } from 'react-router';
 
 
 const List = ({truckers, dispatch}) => {
+  const history = useHistory();
   const [open, setOpen] = useState(false);
   const [cpfTruckRemove, setCpfTruckRemove] = useState();
 
@@ -37,8 +39,8 @@ const List = ({truckers, dispatch}) => {
     <>
     <Grid container direction="row" justifyContent="center">
     {truckers.map((trucker) => 
-      <Grid item key={trucker.id}>
-      <Card style={{width: '350px', margin: '0px 16px 16px 0'}} raised>
+      <Grid item xs={12} sm={6} md={3} key={trucker.id}>
+      <Card style={{ margin: ' 16px 16px'}} raised>
       <CardHeader
         title={
           <Typography variant="h6">
@@ -77,7 +79,7 @@ const List = ({truckers, dispatch}) => {
       </CardContent>
         <CardActions style={{justifyContent: 'flex-end'}}>
           <Button variant="outlined" color="primary" onClick= {() => openDialog(trucker.cpf)}size="small">Remover</Button>
-          <Button variant="contained" color="primary" size="small">Editar</Button>
+          <Button variant="contained" color="primary" size="small" onClick= {() => history.push(`/edit/${trucker.id}`)} >Editar</Button>
         </CardActions>
       </Card>
       </Grid>
