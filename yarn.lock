@@ -5596,6 +5596,11 @@ gh-pages@^3.2.3:
     fs-extra "^8.1.0"
     globby "^6.1.0"
 
+github-page@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/github-page/-/github-page-0.0.2.tgz#6308fcabfd45796f4329b74dd6a607f42870ae6f"
+  integrity sha1-Ywj8q/1FeW9DKbdN1qYH9Chwrm8=
+
 glob-parent@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"
