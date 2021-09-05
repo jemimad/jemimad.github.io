@@ -1,6 +1,8 @@
 # 🚛 Truckpers
 O Truckpers é um sistema que nos permite cadastrar, editar, remover e inativar motoristas. Seu desenvolvimento tem como finalidade o processo seletivo para pessoa desenvolvedora front end da TruckPad. 
 
+Você pode visualizar a aplicação finalizada neste link: https://truckpers.netlify.app/
+
 ## 🛠 Ferramentas
 
 - Para o desenvolvimento foi utilizado ReactJs, React-Router, Redux, Material-UI, Styled-Components e Moment.
